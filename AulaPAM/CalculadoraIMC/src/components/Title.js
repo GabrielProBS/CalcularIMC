@@ -1,18 +1,20 @@
-import { Text, StyleSheet } from "react-native";
+import {Text, StyleSheet} from 'react-native'
 
-const Title = () => {
-    return (
+const Title=()=>{
+    return(
         <Text style={styles.title}>Calculadora de IMC</Text>
-    );
-};
+    )
+}
 
 const styles = StyleSheet.create({
     title: {
-        fontSize: 32,
+        fontSize: 50,
+        color: '#252625',
         fontWeight: 'bold',
+        fontFamily: 'monospace',
         textAlign: 'center',
         marginBottom: 24,
-    },
-});
+    }
+})
 
 export default Title;
